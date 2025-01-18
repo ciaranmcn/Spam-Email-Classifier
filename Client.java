@@ -1,11 +1,11 @@
+import java.io.*;
 import java.util.*;
 import java.util.function.*;
-import java.io.*;
 
 // Client class for interaction with Classifiers
 public class Client {
-    public static final String TRAIN_FILE = "data/emails/train.csv"; 
-    public static final String TEST_FILE = "data/emails/test.csv";      
+    public static final String TRAIN_FILE = "data/train.csv"; 
+    public static final String TEST_FILE = "data/test.csv";      
     public static final int LABEL_INDEX = 0; 
     // Very strange thing we're doing here - we're storing a method as a variable!
     // You should not do this in your homework as it's a forbidden feature, but if you're
